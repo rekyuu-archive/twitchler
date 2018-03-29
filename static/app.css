@@ -1,0 +1,23 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #2D2D2D;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+p { padding: 0.25em 1.25em; }
+a { color: #fff; }
+
+#video {
+  background: black;
+  width: 100%;
+  height: 53.7%;
+}
+
+#chat {
+  width: 100%;
+  height: 46.3%;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Page Necessities -->
+    <meta charset="utf-8">
+    <title>{% block title %}Twitchler{% endblock %}</title>
+    <meta name="description" content="twitchler">
+    <meta name="author" content="rekyuu">
+
+    <!-- Metas for IE and Mobile -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.ico') }}">
+  </head>
+
+  <body>
+    {% block body %}{% endblock %}
+  </body>
+</html>
+
